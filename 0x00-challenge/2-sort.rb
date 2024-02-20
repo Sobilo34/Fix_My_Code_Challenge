@@ -28,7 +28,4 @@ ARGV.each do |arg|
     result << i_arg if !is_inserted
 end
 
-# Filter out non-integer values from the result
-result.select! { |item| item.is_a?(Integer) }
-
 puts result
